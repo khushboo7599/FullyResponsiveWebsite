@@ -1,0 +1,160 @@
+.bgimg1 {
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+
+
+  }
+
+  .bgimg2 {
+    background-color: #060c21;
+    ;
+  }
+
+  .cb {
+    background: linear-gradient(315deg, aqua, blue);
+  }
+
+  @media screen and (max-width: 996px) {
+
+
+    .cardset {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+
+  @media screen and (max-width: 1010px) {
+
+
+    .testinomal {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+
+  .category li {
+    list-style: none;
+    margin: 37px 3px;
+    border: 1px solid rgba(187, 184, 184, 0.925);
+    padding: 9px 4px;
+    border-radius: 5px
+  }
+
+  .category li:hover {
+    background-color: rgb(230, 223, 223);
+
+  }
+
+  .category li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
+  }
+
+  .category li a span {
+    background-color: #e9f9ef;
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: #5dd28e;
+
+  }
+
+  .resumes {
+    background-image: url("resu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .bgred {
+    background: linear-gradient(45deg, red, orange, yellow);
+  }
+
+  .bgblue {
+    background: linear-gradient(45deg, blue, rgb(0, 119, 255), rgb(0, 238, 255));
+  }
+
+  .bggreen {
+    background: linear-gradient(45deg, rgb(1, 59, 1), rgb(77, 194, 77), rgb(136, 223, 118));
+  }
+  .list-unstyled li a{
+    color: #888888;
+
+  }
+ 
+  
+.search{
+  background-color: #007bff;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 0px 10px 10px 10px;
+}
+.nav-pills a{
+  background-color: white;
+  color:gray;
+  
+}
+.input-icons i { 
+  position: absolute; 
+} 
+
+.input-icons { 
+  width: 100%; 
+   
+} 
+
+.icons { 
+  padding: 10px; 
+  min-width: 40px; 
+  color: cadetblue;
+} 
+
+.input-field { 
+  width: 100%; 
+  padding: 10px; 
+
+} 
+
+.news-tile .card-title {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+}
+
+.rgba-stylish-strong {
+  background-color: rgba(62, 69, 81, .5);
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.dropdown-toggle::after{
+ content: none;
+}
+
+
+.carousel-item.active,.carousel-item-next,
+.carousel-item-prev {
+  display: flex;
+
+}
